@@ -4,3 +4,15 @@
     gap: 20px;
     margin: 30px;
 }
+
+.proxima-pagina {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* posicionar no canto direito */
+    color: #007bff; /* azul */
+    text-decoration: none;
+  }
+  
+  .proxima-pagina:hover {
+    color: #0069d9; /* azul mais escuro quando passar o mouse */
+  }
