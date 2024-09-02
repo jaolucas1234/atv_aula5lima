@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra-vermelha {
+    background-color: #FF0000;
+    width: 33.33%;
+    height: 100vh;
+}
+
+.barra-verde {
+    background-color: #00FF00;
+    width: 33.33%;
+    height: 100vh;
+}
+
+.barra-azul {
+    background-color: #0000FF;
+    width: 33.33%;
+    height: 100vh;
+}
+
+.proxima-pagina {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* posicionar no canto direito */
+    color: #007bff; /* azul */
+    text-decoration: none;
+  }
+  
+  .proxima-pagina:hover {
+    color: #0069d9; /* azul mais escuro quando passar o mouse */
+  }

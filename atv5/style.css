@@ -1,0 +1,91 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 20%; /* ajustado para mais à esquerda */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bola-vermelha {
+    background-color: #FF0000;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.bola-verde {
+    background-color: #00FF00;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.bola-azul {
+    background-color: #0000FF;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.bola-vermelha:nth-child(1) {
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.bola-verde:nth-child(2) {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.bola-azul:nth-child(3) {
+    position: absolute;
+    top: 80px;
+    left: 160px;
+}
+
+.bola-vermelha:nth-child(4) {
+    position: absolute;
+    top: -160px;
+    left: 0;
+}
+
+.bola-verde:nth-child(5) {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+.bola-azul:nth-child(6) {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.proxima-pagina {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* posicionar no canto direito */
+    color: #007bff; /* azul */
+    text-decoration: none;
+  }
+  
+  .proxima-pagina:hover {
+    color: #0069d9; /* azul mais escuro quando passar o mouse */
+  }

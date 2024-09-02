@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.barra-vermelha {
+    background-color: #FF0000;
+    height: 33.33vh; /* 1/3 da altura da tela */
+    width: 100vw; /* largura da tela */
+}
+
+.barra-verde {
+    background-color: #00FF00;
+    height: 33.33vh; /* 1/3 da altura da tela */
+    width: 100vw; /* largura da tela */
+}
+
+.barra-azul {
+    background-color: #0000FF;
+    height: 33.33vh; /* 1/3 da altura da tela */
+    width: 100vw; /* largura da tela */
+}
+
+.proxima-pagina {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* posicionar no canto direito */
+    color: #007bff; /* azul */
+    text-decoration: none;
+  }
+  
+  .proxima-pagina:hover {
+    color: #0069d9; /* azul mais escuro quando passar o mouse */
+  }
